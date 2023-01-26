@@ -31,6 +31,9 @@
                     </svg>
                 </div>
 
+                <h3>$_SERVER['SERVER_ADDR']: {{$server}}</h3>
+                <h3>{{$content}}</h3>
+
                 <div class="py-4">
                     <form action="/" method="post">
                         @csrf
